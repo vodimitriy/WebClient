@@ -13,7 +13,6 @@ namespace WebClient
         static void Main(string[] args)
         {           
             // Создание клиента   
-
             Int32 port = 80; // Порт сервера                
             TcpClient client = new TcpClient("127.0.0.1", port); // Соединение с сервером
             Byte[] data = new Byte[1024]; // Буфер для хранения ответа сервера                
